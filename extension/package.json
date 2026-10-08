@@ -1,0 +1,16 @@
+{
+  "name": "buddy-extension",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Buddy: your anti-rug sidekick (Chrome extension). Build from the repo root.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:test": "node scripts/build.mjs --test",
+    "zip": "node scripts/build.mjs --zip",
+    "test:unit": "node --test \"tests/unit/*.test.mjs\"",
+    "test:e2e": "node scripts/build.mjs --test && node --test --test-concurrency=1 \"tests/e2e/*.test.mjs\"",
+    "test": "npm run test:unit && npm run test:e2e"
+  }
+}

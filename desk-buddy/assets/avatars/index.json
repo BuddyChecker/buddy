@@ -1,0 +1,5082 @@
+[
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "file": "bruno.avatar.json",
+    "colors": {
+      "body": "#9a6b4f",
+      "eyes": "#1d1410"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "miso",
+    "name": "Miso",
+    "file": "miso.avatar.json",
+    "colors": {
+      "body": "#8e7cc3",
+      "eyes": "#1b1530"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "lulu",
+    "name": "Lulu",
+    "file": "lulu.avatar.json",
+    "colors": {
+      "body": "#f3eef7",
+      "eyes": "#2a2233"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "kero",
+    "name": "Kero",
+    "file": "kero.avatar.json",
+    "colors": {
+      "body": "#6cc070",
+      "eyes": "#10240f"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "zib",
+    "name": "Zib",
+    "file": "zib.avatar.json",
+    "colors": {
+      "body": "#9be15d",
+      "eyes": "#0f1a06"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "boo",
+    "name": "Boo",
+    "file": "boo.avatar.json",
+    "colors": {
+      "body": "#f2f4ff",
+      "eyes": "#1c1f33"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "prism",
+    "name": "Prism",
+    "file": "prism.avatar.json",
+    "colors": {
+      "body": "#7fd8f5",
+      "eyes": "#0b2530"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "file": "bolt.avatar.json",
+    "colors": {
+      "body": "#3a4658",
+      "eyes": "#6ef2ff"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "pinky",
+    "name": "Pinky",
+    "file": "pinky.avatar.json",
+    "colors": {
+      "body": "#f39db1",
+      "eyes": "#3a1822"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  },
+  {
+    "id": "tako",
+    "name": "Tako",
+    "file": "tako.avatar.json",
+    "colors": {
+      "body": "#9b6bd6",
+      "eyes": "#1e0f33"
+    },
+    "animations": [
+      {
+        "key": "sleeping",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "durmiendo",
+        "labelEn": "sleeping",
+        "once": false
+      },
+      {
+        "key": "waking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "despertando",
+        "labelEn": "waking",
+        "once": false
+      },
+      {
+        "key": "idle",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "en reposo",
+        "labelEn": "idle",
+        "once": false
+      },
+      {
+        "key": "listening",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "escuchando",
+        "labelEn": "listening",
+        "once": false
+      },
+      {
+        "key": "thinking",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "pensando",
+        "labelEn": "thinking",
+        "once": false
+      },
+      {
+        "key": "searching",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "buscando",
+        "labelEn": "searching",
+        "once": false
+      },
+      {
+        "key": "working",
+        "group": "Ciclo de vida",
+        "groupEn": "Life cycle",
+        "label": "trabajando",
+        "labelEn": "working",
+        "once": false
+      },
+      {
+        "key": "excited",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "emocionado",
+        "labelEn": "excited",
+        "once": false
+      },
+      {
+        "key": "bored",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "aburrido",
+        "labelEn": "bored",
+        "once": false
+      },
+      {
+        "key": "suspicious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconfiado",
+        "labelEn": "suspicious",
+        "once": false
+      },
+      {
+        "key": "angry",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enojado",
+        "labelEn": "angry",
+        "once": false
+      },
+      {
+        "key": "drowsy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "somnoliento",
+        "labelEn": "drowsy",
+        "once": false
+      },
+      {
+        "key": "happy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "feliz",
+        "labelEn": "happy",
+        "once": false
+      },
+      {
+        "key": "curious",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "curioso",
+        "labelEn": "curious",
+        "once": false
+      },
+      {
+        "key": "confused",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "confundido",
+        "labelEn": "confused",
+        "once": false
+      },
+      {
+        "key": "surprised",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sorprendido",
+        "labelEn": "surprised",
+        "once": false
+      },
+      {
+        "key": "proud",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "orgulloso",
+        "labelEn": "proud",
+        "once": false
+      },
+      {
+        "key": "shy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tímido",
+        "labelEn": "shy",
+        "once": false
+      },
+      {
+        "key": "sad",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "triste",
+        "labelEn": "sad",
+        "once": false
+      },
+      {
+        "key": "laughing",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "riendo",
+        "labelEn": "laughing",
+        "once": false
+      },
+      {
+        "key": "scared",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "asustado",
+        "labelEn": "scared",
+        "once": false
+      },
+      {
+        "key": "playful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "juguetón",
+        "labelEn": "playful",
+        "once": false
+      },
+      {
+        "key": "celebrate",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "celebrando",
+        "labelEn": "celebrate",
+        "once": false
+      },
+      {
+        "key": "look-left",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la izquierda",
+        "labelEn": "look left",
+        "once": false
+      },
+      {
+        "key": "look-right",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar a la derecha",
+        "labelEn": "look right",
+        "once": false
+      },
+      {
+        "key": "look-up",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar arriba",
+        "labelEn": "look up",
+        "once": false
+      },
+      {
+        "key": "look-down",
+        "group": "Mirada",
+        "groupEn": "Gaze",
+        "label": "mirar abajo",
+        "labelEn": "look down",
+        "once": false
+      },
+      {
+        "key": "nod-yes",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "asentir",
+        "labelEn": "nod yes",
+        "once": true
+      },
+      {
+        "key": "shake-no",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "negar",
+        "labelEn": "shake no",
+        "once": true
+      },
+      {
+        "key": "wink",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "guiño",
+        "labelEn": "wink",
+        "once": true
+      },
+      {
+        "key": "dance",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "bailar",
+        "labelEn": "dance",
+        "once": false
+      },
+      {
+        "key": "eye-roll",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "poner los ojos en blanco",
+        "labelEn": "eye roll",
+        "once": true
+      },
+      {
+        "key": "love",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "enamorado",
+        "labelEn": "in love",
+        "once": false
+      },
+      {
+        "key": "heartbroken",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "desconsolado",
+        "labelEn": "heartbroken",
+        "once": false
+      },
+      {
+        "key": "nervous",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "nervioso",
+        "labelEn": "nervous",
+        "once": false
+      },
+      {
+        "key": "determined",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "decidido",
+        "labelEn": "determined",
+        "once": false
+      },
+      {
+        "key": "smug",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "engreído",
+        "labelEn": "smug",
+        "once": false
+      },
+      {
+        "key": "dizzy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "mareado",
+        "labelEn": "dizzy",
+        "once": false
+      },
+      {
+        "key": "silly",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "payaso",
+        "labelEn": "silly",
+        "once": false
+      },
+      {
+        "key": "shocked",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "en shock",
+        "labelEn": "shocked",
+        "once": true
+      },
+      {
+        "key": "blissful",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "dichoso",
+        "labelEn": "blissful",
+        "once": false
+      },
+      {
+        "key": "eureka",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "¡eureka!",
+        "labelEn": "eureka",
+        "once": true
+      },
+      {
+        "key": "party",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "fiesta",
+        "labelEn": "party",
+        "once": false
+      },
+      {
+        "key": "electrified",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "electrizado",
+        "labelEn": "electrified",
+        "once": false
+      },
+      {
+        "key": "cute",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "tierno",
+        "labelEn": "cute",
+        "once": false
+      },
+      {
+        "key": "mischief",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "travieso",
+        "labelEn": "mischief",
+        "once": false
+      },
+      {
+        "key": "amazed",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "maravillado",
+        "labelEn": "amazed",
+        "once": false
+      },
+      {
+        "key": "gloomy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "sombrío",
+        "labelEn": "gloomy",
+        "once": false
+      },
+      {
+        "key": "knocked-out",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "noqueado",
+        "labelEn": "knocked out",
+        "once": false
+      },
+      {
+        "key": "dreamy",
+        "group": "Reacciones",
+        "groupEn": "Reactions",
+        "label": "soñador",
+        "labelEn": "dreamy",
+        "once": false
+      },
+      {
+        "key": "singing",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "cantando",
+        "labelEn": "singing",
+        "once": false
+      },
+      {
+        "key": "glitch",
+        "group": "Gestos",
+        "groupEn": "Gestures",
+        "label": "falla",
+        "labelEn": "glitch",
+        "once": false
+      },
+      {
+        "key": "typing",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "escribiendo",
+        "labelEn": "typing",
+        "once": false
+      },
+      {
+        "key": "success",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "éxito",
+        "labelEn": "success",
+        "once": true
+      },
+      {
+        "key": "error",
+        "group": "Interfaz",
+        "groupEn": "Interface",
+        "label": "error",
+        "labelEn": "error",
+        "once": true
+      }
+    ],
+    "sounds": {
+      "sleeping": "sleeping",
+      "waking": "waking",
+      "idle": "idle",
+      "listening": "listening",
+      "thinking": "thinking",
+      "searching": "searching",
+      "working": "working",
+      "excited": "excited",
+      "bored": "bored",
+      "suspicious": "suspicious",
+      "angry": "angry",
+      "drowsy": "drowsy",
+      "happy": "happy",
+      "curious": "curious",
+      "confused": "confused",
+      "surprised": "surprised",
+      "proud": "proud",
+      "shy": "shy",
+      "sad": "sad",
+      "laughing": "laughing",
+      "scared": "scared",
+      "playful": "playful",
+      "celebrate": "celebrate",
+      "look-left": "look-left",
+      "look-right": "look-right",
+      "look-up": "look-up",
+      "look-down": "look-down",
+      "nod-yes": "nod-yes",
+      "shake-no": "shake-no",
+      "wink": "wink",
+      "dance": "dance",
+      "eye-roll": "eye-roll",
+      "love": "love",
+      "heartbroken": "heartbroken",
+      "nervous": "nervous",
+      "determined": "determined",
+      "smug": "smug",
+      "dizzy": "dizzy",
+      "silly": "silly",
+      "shocked": "shocked",
+      "blissful": "blissful",
+      "eureka": "eureka",
+      "party": "party",
+      "electrified": "electrified",
+      "cute": "cute",
+      "mischief": "mischief",
+      "amazed": "amazed",
+      "gloomy": "gloomy",
+      "knocked-out": "knocked-out",
+      "dreamy": "dreamy",
+      "singing": "singing",
+      "glitch": "glitch",
+      "typing": "typing",
+      "success": "success",
+      "error": "error"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; media-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'"
+    />
+    <title>Buddy</title>
+    <link rel="stylesheet" href="buddy.css" />
+  </head>
+  <body>
+    <!-- Paneles de vidrio: avatar, favoritas, ajustes y chat (uno a la vez) -->
+    <div id="panel-host">
+      <section id="chat" class="panel chat" hidden aria-label="Chat">
+        <header class="chat-head">
+          <span id="chat-avatar" class="chat-avatar" aria-hidden="true"></span>
+          <div class="chat-title">
+            <strong id="chat-name">Buddy</strong>
+            <span id="chat-status" class="chat-status"><i></i><span>Ready to help</span></span>
+          </div>
+          <button id="chat-recapture" class="icon-btn" type="button" title="New screenshot" aria-label="New screenshot">
+            <svg viewBox="0 0 24 24"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h1.3l1.2-1.8A1.5 1.5 0 0 1 10.3 3.5h3.4a1.5 1.5 0 0 1 1.3.7L16.2 6h1.3A2.5 2.5 0 0 1 20 8.5v8a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5z"/><circle cx="12" cy="12.3" r="3.4"/></svg>
+          </button>
+          <button id="chat-close" class="icon-btn" type="button" aria-label="Close">
+            <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </header>
+        <div id="thread" class="thread"></div>
+        <div id="chips" class="chips"></div>
+        <form id="ask-form" class="composer" autocomplete="off">
+          <textarea id="ask-input" rows="1" placeholder="Ask me anything or paste a CA…"></textarea>
+          <button id="ask-send" class="send-btn" type="submit" aria-label="Send">
+            <svg viewBox="0 0 24 24"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5"/></svg>
+          </button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Burbujas que salen al hacer un clic sobre el personaje -->
+    <nav id="orbit" hidden aria-label="Buddy menu">
+      <button class="orb" data-action="chat" type="button" aria-label="Ask about your screen">
+        <svg viewBox="0 0 24 24"><path d="M4 8.5A2.5 2.5 0 0 1 6.5 6h1.3l1.2-1.8A1.5 1.5 0 0 1 10.3 3.5h3.4a1.5 1.5 0 0 1 1.3.7L16.2 6h1.3A2.5 2.5 0 0 1 20 8.5v8a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5z"/><circle cx="12" cy="12.3" r="3.4"/></svg>
+        <span class="orb-label">Ask</span>
+      </button>
+      <button class="orb orb-avatar" data-action="avatar" type="button" aria-label="Change buddy">
+        <span id="orb-avatar-preview" class="orb-preview"></span>
+        <span class="orb-label">Buddy</span>
+      </button>
+      <button class="orb" data-action="favorites" type="button" aria-label="Favorite animations">
+        <svg viewBox="0 0 24 24"><path d="M12 3.8l2.4 5 5.4.7-4 3.8 1 5.4L12 16.1l-4.8 2.6 1-5.4-4-3.8 5.4-.7z"/></svg>
+        <span class="orb-count" id="orb-fav-count">0</span>
+        <span class="orb-label">Favorites</span>
+      </button>
+      <button class="orb" data-action="settings" type="button" aria-label="Settings">
+        <svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2.2"/><circle cx="10" cy="17" r="2.2"/></svg>
+        <span class="orb-label">Settings</span>
+      </button>
+    </nav>
+
+    <div id="toast" class="toast" hidden role="status"></div>
+
+    <div id="buddy">
+      <div id="poof" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div id="squish"></div>
+      <div id="shadow"></div>
+    </div>
+    <script src="buddy.js"></script>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Buddy — Options</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f1117;
+        --panel: rgba(255, 255, 255, 0.06);
+        --line: rgba(255, 255, 255, 0.12);
+        --fg: #f4f6fb;
+        --muted: rgba(255, 255, 255, 0.58);
+        --accent: #7aa2ff;
+        --accent-2: #b28dff;
+        --green: #45e0a0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(900px 500px at 10% -10%, rgba(122, 162, 255, 0.25), transparent 60%),
+          radial-gradient(800px 500px at 110% 10%, rgba(178, 141, 255, 0.22), transparent 60%),
+          var(--bg);
+        color: var(--fg);
+        font: 14px/1.5 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;
+      }
+      main {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 36px 20px 60px;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 24px;
+      }
+      .lead {
+        margin: 0 0 22px;
+        color: var(--muted);
+      }
+      section {
+        margin-bottom: 16px;
+        padding: 16px 18px;
+        border-radius: 20px;
+        background: var(--panel);
+        box-shadow:
+          inset 0 0 0 1px var(--line),
+          inset 0 1px 0 rgba(255, 255, 255, 0.18);
+      }
+      h2 {
+        margin: 0 0 4px;
+        font-size: 15px;
+      }
+      .hint {
+        margin: 0 0 12px;
+        color: var(--muted);
+        font-size: 12.5px;
+      }
+      .row {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-top: 10px;
+        flex-wrap: wrap;
+      }
+      input[type='url'],
+      input[type='text'],
+      input[type='password'] {
+        flex: 1;
+        min-width: 220px;
+        padding: 9px 12px;
+        border: 0;
+        border-radius: 12px;
+        background: rgba(0, 0, 0, 0.3);
+        box-shadow: inset 0 0 0 1px var(--line);
+        color: var(--fg);
+        font: inherit;
+      }
+      button {
+        padding: 9px 14px;
+        border: 0;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: inset 0 0 0 1px var(--line);
+        color: var(--fg);
+        font: 600 13px/1 inherit;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      button.primary {
+        background: linear-gradient(145deg, var(--accent), var(--accent-2));
+        color: #0b0d14;
+      }
+      .status {
+        padding: 8px 12px;
+        border-radius: 12px;
+        background: rgba(0, 0, 0, 0.25);
+        font-size: 13px;
+      }
+      .status.ok {
+        color: var(--green);
+      }
+      label.switch-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-top: 8px;
+      }
+      ul {
+        margin: 6px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Buddy</h1>
+      <p class="lead">Your anti-rug sidekick: open any token on pump.fun, DexScreener, GMGN, Photon, Axiom or Birdeye and it builds the report for you.</p>
+
+      <section>
+        <h2>Report</h2>
+        <label class="switch-row"><span>Scan the token as soon as you open its page</span><input id="auto-scan" type="checkbox" /></label>
+        <label class="switch-row"><span>Keep watching while the page is open (liquidity & dev)</span><input id="watch" type="checkbox" /></label>
+        <label class="switch-row"><span>Auto-open the report when risk is high</span><input id="auto-open" type="checkbox" /></label>
+      </section>
+
+      <section>
+        <h2>Solana RPC (optional)</h2>
+        <p class="hint">
+          To read the launch on-chain (bundlers, snipers, dev buy) the buddy uses the public Solana RPC, which
+          gets rate-limited sometimes. Got your own <b>Helius</b> RPC (free plan available)? Paste it here and scans get faster.
+        </p>
+        <div id="rpc-status" class="status"></div>
+        <form id="rpc-form" class="row" autocomplete="off">
+          <input id="rpc-url" type="url" placeholder="https://mainnet.helius-rpc.com/?api-key=…" />
+          <button class="primary" type="submit">Save</button>
+          <button id="rpc-clear" type="button">Use public RPC</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Your wallet (read-only, optional)</h2>
+        <p class="hint">
+          Paste your Solana wallet <b>address</b> (public, never your seed or keys) and the buddy shows how much you hold of
+          the token you're looking at, and tells you when an alert hits a token you're in. It only reads your balance.
+        </p>
+        <div id="wallet-status" class="status"></div>
+        <form id="wallet-form" class="row" autocomplete="off">
+          <input id="wallet" type="text" placeholder="Your Solana address (e.g. 7xKX…)" />
+          <button class="primary" type="submit">Save</button>
+          <button id="wallet-clear" type="button">Remove</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Telegram alerts (optional)</h2>
+        <p class="hint">
+          Watchlist alerts on your phone. Create a bot with <b>@BotFather</b> (it gives you a token), send it any message,
+          then paste the token and your chat id (ask <b>@userinfobot</b> for it). The token stays on this PC.
+        </p>
+        <div id="telegram-status" class="status"></div>
+        <form id="telegram-form" class="row" autocomplete="off">
+          <input id="telegram-token" type="password" placeholder="Bot token (123456:ABC…)" />
+          <input id="telegram-chat" type="text" placeholder="Chat id" />
+          <button class="primary" type="submit">Save</button>
+          <button id="telegram-test" type="button">Send test</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Shortcuts</h2>
+        <div class="row">
+          <button id="shortcuts" type="button">Change keyboard shortcuts</button>
+          <button id="unhide" type="button">Show it again on every site</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Privacy</h2>
+        <ul>
+          <li>Never touches your wallet or keys. If you add your wallet address, it's only used to read your balance on the Solana chain.</li>
+          <li>The buddy's memory (tokens it saw and how they ended) stays on this PC.</li>
+          <li>Doesn't screenshot your screen or read the rest of the page.</li>
+          <li>Uses public data only: DexScreener, RugCheck, GoPlus and the Solana chain.</li>
+          <li>The project's website is checked by the Buddy server (it only receives that URL).</li>
+          <li>Open source (AGPL-3.0). Not financial advice.</li>
+        </ul>
+      </section>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>

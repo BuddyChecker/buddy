@@ -1,0 +1,23 @@
+{
+  "name": "buddy",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Buddy: your anti-rug sidekick. A Chrome extension that checks the memecoin you are viewing.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "build": "node extension/scripts/build.mjs",
+    "zip": "node extension/scripts/build.mjs --zip",
+    "test:unit": "node --test \"extension/tests/unit/*.test.mjs\"",
+    "test:e2e": "node extension/scripts/build.mjs --test && node --test --test-concurrency=1 \"extension/tests/e2e/*.test.mjs\"",
+    "test": "npm run test:unit && npm run test:e2e"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "esbuild": "^0.28.2",
+    "playwright": "^1.63.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
