@@ -5,10 +5,14 @@ memecoin you are looking at: launch bundles, linked wallets, copycat tokens and 
 alerts. Everything comes from public on-chain and market data, and the code is open so you
 can check exactly what it reads and what it does not.
 
-Website: [buddycheck.xyz](https://buddycheck.xyz)
+[![Available in the Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install%20Buddy-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/buddy-your-anti-rug-sidek/cdcllbibkglhaonmlhilaplbggodhccf)
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 
-> Status: submitted to the Chrome Web Store, waiting for review. Until it is listed you can
-> build it from this repo and load it unpacked (see below).
+**Install:** [Chrome Web Store](https://chromewebstore.google.com/detail/buddy-your-anti-rug-sidek/cdcllbibkglhaonmlhilaplbggodhccf) (free; works on Chrome, Brave, Edge and Arc)
+· **Website:** [buddycheck.xyz](https://buddycheck.xyz) · **X:** [@Buddycheckxyz](https://x.com/Buddycheckxyz)
+
+Only install Buddy from the official Chrome Web Store link above. You can also build it from
+this repo and load it unpacked (see below).
 
 ## What it checks
 
