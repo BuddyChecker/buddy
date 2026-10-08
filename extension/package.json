@@ -1,6 +1,6 @@
 {
   "name": "buddy-extension",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "Buddy: your anti-rug sidekick (Chrome extension). Build from the repo root.",
   "license": "AGPL-3.0-only",
